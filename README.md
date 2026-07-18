@@ -10,20 +10,20 @@ Meu objetivo é aprender em público, consolidar meu conhecimento através da es
 
 ---
 
-# 🎯 Objetivos
+#  Objetivos
 
-- 📚 Consolidar meu aprendizado.
-- ✍️ Compartilhar conhecimento.
-- 🧪 Documentar laboratórios.
-- 🛡️ Construir uma base sólida em Cybersecurity.
-- 🤝 Ajudar outras pessoas que estão iniciando.
-- 💼 Construir um portfólio técnico.
+-  Consolidar meu aprendizado.
+-  Compartilhar conhecimento.
+-  Documentar laboratórios.
+-  Construir uma base sólida em Cybersecurity.
+-  Ajudar outras pessoas que estão iniciando.
+-  Construir um portfólio técnico.
 
 ---
 
-# 🚀 Roadmap
+#  Roadmap
 
-## 📖 Módulo 1 — Fundamentos
+##  Módulo 1 — Fundamentos
 
 - [ ] O que é Cybersecurity
 - [ ] Tríade CIA
@@ -38,7 +38,7 @@ Meu objetivo é aprender em público, consolidar meu conhecimento através da es
 
 ---
 
-## 🌐 Módulo 2 — Redes
+##  Módulo 2 — Redes
 
 - [ ] Modelo OSI
 - [ ] Modelo TCP/IP
@@ -52,7 +52,7 @@ Meu objetivo é aprender em público, consolidar meu conhecimento através da es
 
 ---
 
-## 🐧 Módulo 3 — Linux
+##  Módulo 3 — Linux
 
 - [ ] Permissões
 - [ ] SSH
@@ -63,7 +63,7 @@ Meu objetivo é aprender em público, consolidar meu conhecimento através da es
 
 ---
 
-## 🪟 Módulo 4 — Windows
+##  Módulo 4 — Windows
 
 - [ ] Active Directory
 - [ ] Kerberos
@@ -75,7 +75,7 @@ Meu objetivo é aprender em público, consolidar meu conhecimento através da es
 
 ---
 
-## 🛡️ Módulo 5 — Blue Team
+##  Módulo 5 — Blue Team
 
 - [ ] SOC
 - [ ] SIEM
@@ -90,7 +90,7 @@ Meu objetivo é aprender em público, consolidar meu conhecimento através da es
 
 ---
 
-## 🔎 Módulo 6 — OSINT
+##  Módulo 6 — OSINT
 
 - [ ] Google Dorks
 - [ ] WHOIS
@@ -102,7 +102,7 @@ Meu objetivo é aprender em público, consolidar meu conhecimento através da es
 
 ---
 
-## 🎯 Módulo 7 — Cyber Threat Intelligence
+##  Módulo 7 — Cyber Threat Intelligence
 
 - [ ] Intelligence Cycle
 - [ ] MITRE ATT&CK
@@ -116,13 +116,13 @@ Meu objetivo é aprender em público, consolidar meu conhecimento através da es
 
 ---
 
-## 🧪 Módulo 8 — Laboratórios
+##  Módulo 8 — Laboratórios
 
 Em breve.
 
 ---
 
-# 📂 Estrutura do projeto
+#  Estrutura do projeto
 
 ```text
 Cybersecurity-do-Zero/
@@ -141,13 +141,13 @@ Cybersecurity-do-Zero/
 
 ---
 
-# 📅 Frequência
+#  Frequência
 
 Pretendo adicionar novos conteúdos continuamente, acompanhando minha evolução na área.
 
 ---
 
-# 🤝 Contribuições
+#  Contribuições
 
 Este projeto representa minha jornada de aprendizado.
 
@@ -155,7 +155,7 @@ Sugestões, correções e discussões são sempre bem-vindas.
 
 ---
 
-# 📬 Contato
+#  Contato
 
 Caso queira trocar ideias sobre Cybersecurity:
 
