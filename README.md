@@ -1,132 +1,131 @@
-# Cybersecurity do Zero
+<div align="center">
 
-> **Uma jornada pública de aprendizado em Cybersecurity.**
+#  Cybersecurity do Zero
 
-Bem-vindo ao **Cybersecurity do Zero**!
+### **Entender antes de decorar.**
 
-Este repositório foi criado para documentar toda a minha evolução na área de Cybersecurity, compartilhando conhecimentos, laboratórios e anotações de forma organizada e acessível.
+**Uma documentação para compartilhar meus estudos em Cybersec buscando ajudar quem está iniciando na área e não sabe por onde começar.**
 
-Meu objetivo é aprender em público, consolidar meu conhecimento através da escrita e contribuir com outras pessoas que também estão iniciando ou migrando para a área.
+<br>
+
+[![Status](https://img.shields.io/badge/Status-Em%20Desenvolvimento-blue)]()
+[![License](https://img.shields.io/badge/License-MIT-green)]()
+[![Idioma](https://img.shields.io/badge/Idioma-Português-success)]()
+[![Conteúdo](https://img.shields.io/badge/Conteúdo-Documentação-informational)]()
+
+<br>
+
+📖 **Comece pelos fundamentos** • 🚀 **Aprenda no seu ritmo** • 🛡️ **Construa uma base sólida**
+
+</div>
 
 ---
 
-#  Objetivos
+#  Bem-vindo
 
--  Consolidar meu aprendizado.
--  Compartilhar conhecimento.
--  Documentar laboratórios.
--  Construir uma base sólida em Cybersecurity.
--  Ajudar outras pessoas que estão iniciando.
--  Construir um portfólio técnico.
+A maioria das pessoas começa a estudar Cybersecurity procurando ferramentas.
+
+Nmap.
+
+Wireshark.
+
+Burp Suite.
+
+Kali Linux.
+
+Mas ferramentas são apenas meios.
+
+Antes delas, existem conceitos que explicam **por que** essas ferramentas existem.
+
+Este projeto foi criado justamente para isso.
+
+O **Cybersecurity do Zero** reúne conteúdos organizados em uma sequência lógica de aprendizado, explicando desde os fundamentos até temas mais avançados, sempre utilizando exemplos práticos, diagramas e referências oficiais.
+
+---
+
+#  Missão
+
+Construir uma documentação gratuita, organizada e acessível que ajude estudantes e profissionais em início de carreira a compreender os fundamentos da Segurança Cibernética antes de aprofundar-se em ferramentas e tecnologias específicas.
 
 ---
 
 #  Roadmap
 
-##  Módulo 1 — Fundamentos
-
-- [ ] O que é Cybersecurity
-- [ ] Tríade CIA
-- [ ] Princípio do Menor Privilégio
-- [ ] Defense in Depth
-- [ ] Zero Trust
-- [ ] AAA
-- [ ] Autenticação x Autorização
-- [ ] Criptografia
-- [ ] Hashing
-- [ ] Certificados Digitais
-
----
-
-##  Módulo 2 — Redes
-
-- [ ] Modelo OSI
-- [ ] Modelo TCP/IP
-- [ ] TCP x UDP
-- [ ] DNS
-- [ ] DHCP
-- [ ] NAT
-- [ ] VPN
-- [ ] Firewalls
-- [ ] IDS x IPS
+```text
+                 Cybersecurity
+                       │
+                       ▼
+              01 • Fundamentos
+                       │
+                       ▼
+                 02 • Redes
+                       │
+                       ▼
+                 03 • Linux
+                       │
+                       ▼
+                04 • Windows
+                       │
+                       ▼
+               05 • Blue Team
+                       │
+                       ▼
+                  06 • OSINT
+                       │
+                       ▼
+          07 • Threat Intelligence
+```
 
 ---
 
-##  Módulo 3 — Linux
+#  Módulos
 
-- [ ] Permissões
-- [ ] SSH
-- [ ] Logs
-- [ ] systemctl
-- [ ] journalctl
-- [ ] Cron
-
----
-
-##  Módulo 4 — Windows
-
-- [ ] Active Directory
-- [ ] Kerberos
-- [ ] Event Viewer
-- [ ] Windows Defender
-- [ ] BitLocker
-- [ ] PowerShell
-- [ ] Group Policy
+| Módulo                |     Situação    |  Progresso |
+| :-------------------- | :-------------: | :--------: |
+| 🟢 Fundamentos        | 🚧 Em andamento | **1 / 15** |
+| ⚪ Redes               |   ⏳ Planejado   | **0 / 12** |
+| ⚪ Linux               |   ⏳ Planejado   | **0 / 18** |
+| ⚪ Windows             |   ⏳ Planejado   | **0 / 15** |
+| ⚪ Blue Team           |   ⏳ Planejado   | **0 / 20** |
+| ⚪ OSINT               |   ⏳ Planejado   | **0 / 10** |
+| ⚪ Threat Intelligence |   ⏳ Planejado   | **0 / 12** |
 
 ---
 
-##  Módulo 5 — Blue Team
+#  Comece por aqui
 
-- [ ] SOC
-- [ ] SIEM
-- [ ] EDR
-- [ ] IOC
-- [ ] IOA
-- [ ] MITRE ATT&CK
-- [ ] Threat Hunting
-- [ ] Sigma Rules
-- [ ] YARA
-- [ ] Incident Response
+##  Fundamentos
 
----
-
-##  Módulo 6 — OSINT
-
-- [ ] Google Dorks
-- [ ] WHOIS
-- [ ] Shodan
-- [ ] Censys
-- [ ] Maltego
-- [ ] SpiderFoot
-- [ ] theHarvester
+| Capítulo                                                                        |       Status       |
+| ------------------------------------------------------------------------------- | :----------------: |
+| ✅ [001 — O que é Cybersecurity?](./01-Fundamentos/001-o-que-e-cybersecurity.md) |      Publicado     |
+| ⏳ 002 — Tríade CIA                                                              | Em desenvolvimento |
+| ⏳ 003 — Princípio do Menor Privilégio                                           |      Planejado     |
+| ⏳ 004 — Defense in Depth                                                        |      Planejado     |
+| ⏳ 005 — Zero Trust                                                              |      Planejado     |
 
 ---
 
-##  Módulo 7 — Cyber Threat Intelligence
+# 💡 Como estudar
 
-- [ ] Intelligence Cycle
-- [ ] MITRE ATT&CK
-- [ ] Kill Chain
-- [ ] Diamond Model
-- [ ] IOC
-- [ ] TTP
-- [ ] Threat Reports
-- [ ] Malware Analysis
-- [ ] Threat Hunting
+Para aproveitar melhor esta documentação:
 
----
+1. Siga a ordem dos módulos.
+2. Leia cada capítulo com atenção.
+3. Consulte os diagramas e exemplos.
+4. Pesquise as referências oficiais.
+5. Faça anotações e pratique os conceitos.
 
-##  Módulo 8 — Laboratórios
-
-Em breve.
+O objetivo é desenvolver uma compreensão sólida, e não apenas memorizar termos ou comandos.
 
 ---
 
 #  Estrutura do projeto
 
 ```text
-Cybersecurity-do-Zero/
+cybersecurity-do-zero/
 │
+├── README.md
 ├── 01-Fundamentos/
 ├── 02-Redes/
 ├── 03-Linux/
@@ -134,33 +133,31 @@ Cybersecurity-do-Zero/
 ├── 05-Blue-Team/
 ├── 06-OSINT/
 ├── 07-Threat-Intelligence/
-├── 08-Laboratorios/
-├── imagens/
-└── README.md
+└── assets/
 ```
 
 ---
 
-#  Frequência
+#  Contribuindo
 
-Pretendo adicionar novos conteúdos continuamente, acompanhando minha evolução na área.
+Sugestões, correções e referências são sempre bem-vindas.
 
----
-
-#  Contribuições
-
-Este projeto representa minha jornada de aprendizado.
-
-Sugestões, correções e discussões são sempre bem-vindas.
+Se encontrar algum erro ou tiver uma ideia para melhorar esta documentação, fique à vontade para abrir uma **Issue** ou enviar um **Pull Request**.
 
 ---
 
-#  Contato
+<div align="center">
 
-Caso queira trocar ideias sobre Cybersecurity:
+##  Gostou do projeto?
 
-- LinkedIn: https://linkedin.com/in/willianhirata
+Se este material estiver ajudando você, considere deixar uma estrela no repositório.
+
+Ela incentiva a continuidade do projeto e ajuda outras pessoas a encontrarem este conteúdo.
 
 ---
 
-> **"A melhor forma de aprender é compartilhar o conhecimento."**
+### **Cybersecurity do Zero**
+
+**Entender antes de decorar.**
+
+</div>
