@@ -8,7 +8,7 @@ theme:
 
   language: pt-BR
 
-  logo: assets/logo.png
+  logo: assets/logo.svg
   favicon: assets/favicon.png
 
   palette:
