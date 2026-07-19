@@ -1,0 +1,79 @@
+site_name: Cybersecurity do Zero
+site_description: Aprenda Cybersecurity do Zero entendendo os fundamentos antes das ferramentas.
+site_author: Willian Hirata
+site_url: https://willianhirata.github.io/cybersecurity-do-zero/
+
+theme:
+  name: material
+  language: pt-BR
+
+  palette:
+    - scheme: default
+      primary: blue
+      accent: cyan
+      toggle:
+        icon: material/weather-night
+        name: Alternar para modo escuro
+
+    - scheme: slate
+      primary: blue
+      accent: cyan
+      toggle:
+        icon: material/weather-sunny
+        name: Alternar para modo claro
+
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - navigation.footer
+    - navigation.instant
+    - search.highlight
+    - search.suggest
+    - content.code.copy
+    - content.tabs.link
+
+plugins:
+  - search
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.tabbed:
+      alternate_style: true
+
+nav:
+  - Início: index.md
+
+  - Fundamentos:
+      - Visão Geral: fundamentos/index.md
+      - O que é Cybersecurity?: fundamentos/001-o-que-e-cybersecurity.md
+
+  - Redes:
+      - Visão Geral: redes/index.md
+
+  - Linux:
+      - Visão Geral: linux/index.md
+
+  - Windows:
+      - Visão Geral: windows/index.md
+
+  - Blue Team:
+      - Visão Geral: blue-team/index.md
+
+  - OSINT:
+      - Visão Geral: osint/index.md
+
+  - Threat Intelligence:
+      - Visão Geral: threat-intelligence/index.md
