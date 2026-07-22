@@ -3,7 +3,7 @@ title: Capítulo 003 — Princípio do Menor Privilégio
 description: Entenda por que usuários, sistemas e aplicações devem possuir somente os acessos necessários e como o menor privilégio reduz o impacto de erros, credenciais comprometidas e ataques.
 ---
 
-# 🗝️ Capítulo 003 — Princípio do Menor Privilégio
+# Capítulo 003 — Princípio do Menor Privilégio
 
 > **Entender antes de decorar.**
 
@@ -18,7 +18,7 @@ description: Entenda por que usuários, sistemas e aplicações devem possuir so
 
 ---
 
-## 🎯 Objetivo deste capítulo
+##  Objetivo deste capítulo
 
 Ao final deste capítulo, você será capaz de:
 
@@ -126,7 +126,7 @@ Ele também deve ser considerado para:
 
 Segundo o NIST, uma arquitetura baseada em menor privilégio concede a cada entidade somente os recursos e as autorizações mínimas necessárias para executar sua função.
 
-!!! note "Ideia principal"
+ "Ideia principal"
     O objetivo não é impedir que alguém trabalhe. O objetivo é permitir que a tarefa seja realizada sem conceder acessos desnecessários.
 
 ---
@@ -322,7 +322,7 @@ Um usuário não precisa utilizar uma conta de administrador para tarefas comuns
 
 Quando uma ação administrativa for realmente necessária, pode ser utilizada uma conta separada ou um mecanismo controlado de elevação de privilégio.
 
-!!! tip "Separe o uso comum do uso administrativo"
+ "Separe o uso comum do uso administrativo"
     Uma boa prática é não utilizar contas privilegiadas para navegar na internet, ler e-mails ou realizar atividades rotineiras. Isso reduz a exposição dessas credenciais.
 
 ---
@@ -503,7 +503,7 @@ Exemplo:
 
 Em vez de configurar cada permissão individualmente para cada funcionário, o usuário recebe uma função compatível com seu trabalho.
 
-!!! warning "Funções também podem acumular privilégios"
+ "Funções também podem acumular privilégios"
     Criar uma função não garante que ela esteja correta. Papéis mal definidos podem reunir permissões desnecessárias e ser atribuídos a usuários que não precisam delas.
 
 ---
@@ -719,7 +719,7 @@ A ideia pode ser resumida em três princípios:
 2. utilizar o menor privilégio;
 3. assumir a possibilidade de comprometimento.
 
-!!! note "Menor privilégio não significa confiança automática"
+ "Menor privilégio não significa confiança automática"
     Um usuário autorizado continua sujeito a autenticação, autorização, monitoramento e novas avaliações de acesso conforme o contexto muda.
 
 ---
@@ -877,70 +877,29 @@ Esse é um exemplo de menor privilégio aplicado ao escopo e ao tempo.
 
 ---
 
-# Como pensar como um profissional de Segurança
-
-Ao analisar permissões, faça perguntas como:
-
-## Sobre a identidade
-
-- A conta pertence a uma pessoa, aplicação ou serviço conhecido?
-- A identidade é individual ou compartilhada?
-- Existe autenticação multifator?
-- A conta ainda está ativa e em uso?
-
-## Sobre a necessidade
-
-- Qual tarefa exige esse acesso?
-- Existe uma permissão mais limitada que permite realizar a mesma tarefa?
-- O acesso foi aprovado pelo responsável adequado?
-- A função atual da pessoa ainda justifica a permissão?
-
-## Sobre o escopo
-
-- O acesso precisa alcançar todo o ambiente?
-- Pode ser limitado a uma pasta, sistema, servidor ou departamento?
-- A conta precisa ler, editar, excluir ou administrar?
-
-## Sobre o tempo
-
-- O acesso precisa ser permanente?
-- Pode ser concedido apenas durante a atividade?
-- Existe expiração automática?
-
-## Sobre monitoramento
-
-- As ações privilegiadas são registradas?
-- Os logs são protegidos?
-- Existe alerta para comportamentos anormais?
-- As permissões são revisadas periodicamente?
-
-Essas perguntas ajudam a transformar o princípio em decisões práticas.
-
----
-
 # Exercício de fixação
 
 Leia cada situação e tente identificar a melhor aplicação do menor privilégio antes de abrir a resposta.
 
-??? question "1. Um funcionário precisa consultar pedidos, mas não deve alterar preços. Qual permissão seria mais adequada?"
+Questão "1. Um funcionário precisa consultar pedidos, mas não deve alterar preços. Qual permissão seria mais adequada?"
     Permissão de **leitura** sobre os pedidos, sem autorização para modificar preços. Conceder edição completa seria desnecessário para a tarefa descrita.
 
-??? question "2. Um técnico precisa reiniciar um serviço em um servidor. Ele deve receber acesso administrativo completo?"
+Questão "2. Um técnico precisa reiniciar um serviço em um servidor. Ele deve receber acesso administrativo completo?"
     Não necessariamente. O ideal é permitir somente a ação necessária, como reiniciar aquele serviço específico, utilizando delegação, JEA ou outro mecanismo controlado.
 
-??? question "3. Um fornecedor precisa acessar um sistema durante uma manutenção de duas horas. O acesso deve permanecer ativo depois?"
+Questão "3. Um fornecedor precisa acessar um sistema durante uma manutenção de duas horas. O acesso deve permanecer ativo depois?"
     Não. O acesso pode ser concedido de forma temporária, limitado ao sistema necessário e removido ou expirado automaticamente ao final da atividade.
 
-??? question "4. Uma aplicação consulta produtos, mas utiliza uma conta capaz de excluir todo o banco de dados. Qual é o problema?"
+Questão "4. Uma aplicação consulta produtos, mas utiliza uma conta capaz de excluir todo o banco de dados. Qual é o problema?"
     A conta possui privilégios excessivos. A aplicação deveria receber somente as operações necessárias, como permissão de consulta nas tabelas adequadas.
 
-??? question "5. Um funcionário mudou do Financeiro para o setor Comercial e manteve todos os acessos antigos. Qual controle falhou?"
+Questão "5. Um funcionário mudou do Financeiro para o setor Comercial e manteve todos os acessos antigos. Qual controle falhou?"
     Houve falha na revisão do ciclo de vida dos acessos. As permissões antigas deveriam ter sido reavaliadas e removidas durante a mudança de função.
 
-??? question "6. Uma conta administrativa utiliza MFA. Isso significa que ela já segue o menor privilégio?"
+Questão "6. Uma conta administrativa utiliza MFA. Isso significa que ela já segue o menor privilégio?"
     Não. O MFA fortalece a autenticação, mas a conta ainda pode possuir permissões excessivas. Autenticação forte e menor privilégio são controles complementares.
 
-??? question "7. Todos os administradores utilizam a mesma conta chamada admin. Qual é um dos principais problemas?"
+Questão "7. Todos os administradores utilizam a mesma conta chamada admin. Qual é um dos principais problemas?"
     A conta compartilhada prejudica a responsabilização e a rastreabilidade, pois fica difícil determinar qual pessoa executou cada ação.
 
 ---
@@ -1052,7 +1011,7 @@ Controles importantes incluem:
 
 ---
 
-# 🧠 Checkpoint
+#  Checkpoint
 
 Antes de seguir para o próximo capítulo, confirme se você consegue responder:
 
