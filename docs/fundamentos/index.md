@@ -10,11 +10,11 @@ Neste módulo você desenvolverá a base necessária para entender como a segura
 
 - O que é Cybersecurity
 - Tríade CIA
+- Princípio do Menor Privilégio
 - Ameaças
 - Vulnerabilidades
 - Riscos
 - Controles de Segurança
-- Conceitos fundamentais
 
 > **Objetivo:** construir uma base sólida para compreender os módulos seguintes.
 
